@@ -1,7 +1,24 @@
-# Getting Started with Create React App
+# Getting Started with Create React Proyect Basic
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About React
+
+React is a **JavaScript library** developed by Facebook **to create user interfaces(UI) interactive and efficient**.
+
+It must be taken into account that React, being a library, **allows the creation of different IDEs**.
+
+## Download Previous
+* Install Node.Js(and Node Package Manager mpm inside installation )
+* Install Java JDK
+
+## Create React app actual directory
+
+In the project directory, you can run:
+
+```
+npx create-react-app ./
+```
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +85,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## References
+
+https://es.react.dev/learn/installation
+

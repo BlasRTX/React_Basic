@@ -56,6 +56,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Proyect in React
+
+Create our own **application in React**.
+
+Let's build a **simple version** of the filmpire page, using the above tested.
+
+Also using an **external API**,  which will give us access to the **information about the movies**.
+
+Link: https://www.omdbapi.com
+
+Now we have to explore the different options that we can use to call the API to get all the movie data.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

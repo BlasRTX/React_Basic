@@ -68,6 +68,10 @@ Link: https://www.omdbapi.com
 
 Now we have to explore the different options that we can use to call the API to get all the movie data.
 
+## Test
+
+![ ]()
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

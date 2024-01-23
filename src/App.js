@@ -1,25 +1,30 @@
 import './App.css';
-
+import { useState, useEffect } from 'react';
 /**
- * Create components, other name to say are properties
+ * Create components event
  * @returns 
  */
-
-const Person = (props) => {
-  return (
-    <>
-      <h1>Name: {props.name}</h1>
-      <h2>Last Name: {props.lastname}</h2>
-    </>
-  )
-}
-
 const App = () => {
+
+  const [counter, setCounter] = useState(0);
+  /**
+   * Count basic
+   * NEVER change manual, is not only variable, that si parth of state React
+   * ONLY CHANGES from function
+   * @returns 
+   */
+  useEffect(() => {
+    /**
+    * Bad practice, but show how call the state
+    */
+    alert("Your count change to:" + counter);
+  }, [counter]);
+
   return (
     <div className="App">
-      <Person name={'Cristiano'} lastname={'Ronaldo'} />
-      <Person name={'Erling'} lastname={'Halland'} />
-      <Person name={'Jude'} lastname={'Belingham'} />
+      <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
+      <h1>{counter}</h1>
+      <button onClick={() => setCounter((prevCount) => prevCount + 1)}>+</button>
     </div>
   );
 }

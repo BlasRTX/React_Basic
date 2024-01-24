@@ -12,13 +12,7 @@ It must be taken into account that React, being a library, **allows the creation
 * Install Node.Js(and Node Package Manager mpm inside installation )
 * Install Java JDK
 
-## Create React app actual directory
 
-In the project directory, you can run:
-
-```
-npx create-react-app ./
-```
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,7 +60,37 @@ Also using an **external API**,  which will give us access to the **information 
 
 Link: https://www.omdbapi.com
 
+![ ]()
+
+![ ]()
+
+It requires a key to access the API, you must use an email where you will be provided with more information.
+
+![ ]()
+
+## Create React app actual directory
+
+In the project directory, you can run:
+
+```
+npx create-react-app ./
+```
+
+## Visual Studio Code
+
+![ ]()
+
+![ ]()
+
 Now we have to explore the different options that we can use to call the API to get all the movie data.
+
+## Result
+
+![ ]()
+
+![ ]()
+
+![ ]()
 
 ## Test
 
@@ -105,4 +129,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## References
 
 https://es.react.dev/learn/installation
+
+https://www.omdbapi.com
 

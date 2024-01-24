@@ -90,7 +90,7 @@ Now we have to explore the different options that we can use to call the API to 
 
 ![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%203.png)
 
-![ ]https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%204.png)
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%204.png)
 
 ![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%205.png)
 

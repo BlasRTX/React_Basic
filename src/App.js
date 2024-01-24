@@ -1,7 +1,7 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import './App.css';
 import SearchIcon from './glass.png'
+import movieCard from './movieCard';
 
 //Key:7769c8ce
 const API_URL = 'https://www.omdbapi.com?apikey=7769c8ce';
@@ -19,6 +19,10 @@ const movie_1 = {
 
 
 const App = () => {
+
+    const [movies, setMovies] = useState([]);
+
+
     /**
      * Define a API connection
      * Define search movie, response and answer by data.
@@ -28,7 +32,8 @@ const App = () => {
         const response = await fetch(`${API_URL}&s=${title}`)
         const data = await response.json();
 
-        console.log(data);
+        //Get dinamyc data
+        setMovies(data.Search);
     }
     /**
      * Define a state after search movie
@@ -53,25 +58,20 @@ const App = () => {
                     onClick={() => { }}
                 />
             </div>
-
-            <div className="container">
-                <div className="movie">
-                    <div>
-                        <p>{movie_1.Year}</p>
-                    </div>
-
-                    <div>
-                        <img src={movie_1.Poster} alt={movie_1.Title} />
-                    </div>
-
-                    <div>
-                        <span>{movie_1.Type}</span>
-                        <h3>{movie_1.Title}</h3>
-                    </div>
-
-
-                </div>
-            </div>
+            {
+                /**If movie 
+                   */
+                movies?.length > 0
+                    ? (
+                        <div className="container">
+                            <movieCard movie_1={movies} />
+                        </div>
+                    ) : (
+                        <div className="empty">
+                            <h2>No movies?</h2>
+                        </div>
+                    )
+            }
 
 
 

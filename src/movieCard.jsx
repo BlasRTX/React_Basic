@@ -4,20 +4,20 @@ import React from "react";
  * Getting more options search movies
  */
 
-const movieCard = (props) => {
+const MovieCard = ({ movie }) => {
     return (
         <div className="movie">
             <div>
-                <p>{props.Year}</p>
+                <p>{movie.Year}</p>
             </div>
 
             <div>
-                <img src={props.Poster} alt={props.Title} />
+                <img src={movie.Poster} alt={movie.Title} />
             </div>
 
             <div>
-                <span>{props.Type}</span>
-                <h3>{props.Title}</h3>
+                <span>{movie.Type}</span>
+                <h3>{movie.Title}</h3>
             </div>
 
 
@@ -26,4 +26,4 @@ const movieCard = (props) => {
     );
 }
 
-export default movieCard;
+export default MovieCard;

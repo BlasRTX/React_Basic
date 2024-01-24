@@ -60,13 +60,13 @@ Also using an **external API**,  which will give us access to the **information 
 
 Link: https://www.omdbapi.com
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/OMDbAPI/image%201.png)
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/OMDbAPI/image%203.png)
 
 It requires a key to access the API, you must use an email where you will be provided with more information.
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/OMDbAPI/image%204.png)
 
 ## Create React app actual directory
 
@@ -78,25 +78,29 @@ npx create-react-app ./
 
 ## Visual Studio Code
 
-![ ]()
+Folders created using React's npx commands
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%201.png)
+
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%202.png)
 
 Now we have to explore the different options that we can use to call the API to get all the movie data.
 
 ## Result
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%203.png)
 
-![ ]()
+![ ]https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%204.png)
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/proyect/image%205.png)
 
 ## Test
 
-![ ]()
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/test/image%201.png)
 
-## Learn More
+![ ](https://github.com/BlasRTX/React_Basic/blob/master/src/images/test/image%202.png)
+
+## References
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -126,7 +130,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## References
 
 https://es.react.dev/learn/installation
 

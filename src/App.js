@@ -21,8 +21,7 @@ const movie_1 = {
 const App = () => {
 
     const [movies, setMovies] = useState([]);
-
-
+    const [searchBegin, setSearchBegin] = useState('');
     /**
      * Define a API connection
      * Define search movie, response and answer by data.
@@ -50,29 +49,25 @@ const App = () => {
 
             <div className="search">
                 <input placeholder="Search to movie"
-                    value={searchMovie}
-                    onChange={() => { }}
+                    value={searchBegin}
+                    onChange={(e) => setSearchBegin(e.target.value)}
                 />
                 <img src={SearchIcon}
                     alt="search"
-                    onClick={() => { }}
+                    onClick={() => searchMovie(searchBegin)}
                 />
             </div>
-            {
-                /**If movie 
-                   */
-                movies?.length > 0
-                    ? (
-                        <div className="container">
-                            {movies.map((movie) => (
-                                <MovieCard movie={movie} />
-                            ))}
-                        </div>
-                    ) : (
-                        <div className="empty">
-                            <h2>No movies?</h2>
-                        </div>
-                    )
+            {movies?.length > 0
+                ? (<div className="container">
+                    {movies.map((movie) => (
+                        <MovieCard movie={movie} />
+                    ))}
+                </div>
+                ) : (
+                    <div className="empty">
+                        <h2>No movies?</h2>
+                    </div>
+                )
             }
 
 
